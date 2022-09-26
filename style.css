@@ -1,0 +1,118 @@
+.mainbackground {
+    background-color: rgba(195, 221, 240, 0.8); 
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
+#mainpage{
+    background-color: rgba(195, 221, 240, 0.8); 
+    text-align: center;
+    
+}
+#mainpage > a {
+    position: relative;
+}
+.imgtitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 1%;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    background: url(img/covid.jpeg);
+    padding: 80px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+#location {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(215, 38, 49, 0.72); 
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    width: 30%; 
+    height: 30%;
+}
+
+#patientStatus{
+    background-color: rgba(162, 213, 198, 0.72); 
+    padding: 10px;
+    width: 30%; 
+    height: 30%;
+    
+}
+
+#recordPatient{
+    background-color: rgba(7, 123, 138, 0.72); 
+    padding: 10px;
+    width: 30%; 
+    height: 30%;
+}
+
+#worker{
+    background-color: rgba(92, 60, 146, 0.72); 
+    padding: 10px;
+    width: 30%; 
+    height: 30%;
+}
+
+#addNewPatient{
+    background-color: rgba(169, 93, 9, 0.38); 
+    padding: 10px;
+    width: 30%; 
+    height: 30%;
+}
+#information {
+    background-color: rgba(195, 221, 240, 0.8); 
+    padding: 10px;
+    width: 30%; 
+    height: 30%;
+}
+
+/* subpages */
+  
+.container {
+    background-size: contain;
+    width: 100%;
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+}
+  
+.subheader {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.warningcontainer{
+    background-size: contain;
+    width: 100%;
+    display: block;
+    float: left;
+    background-color:rgba(255, 0, 0, 0.837); 
+    background-repeat: no-repeat;
+    background-image: url(img/error.png);
+}
+
+.warning{
+    text-indent: 5%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid;
+}
